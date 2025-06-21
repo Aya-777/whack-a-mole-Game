@@ -1,0 +1,38 @@
+# Whack-a-Mole Game 🎯 
+A simple **Whack-a-Mole** browser game built using **HTML**, **CSS**, and **JavaScript**. This was created as part of my learning journey to practice DOM manipulation, event handling, and game logic.
+
+## How to Play 🎮 
+- Moles randomly pop up from different holes. 
+- Click the mole as fast as you can to score points before it disappears. 
+- The game runs for a set time — try to get the highest score! 
+
+## Live Demo 👉 
+[Play Whack-a-Mole](https://whack-a-mole-game-gray.vercel.app/) 
+
+## Technologies Used 🛠️  
+- HTML 
+- CSS 
+- JavaScript 
+
+## How to Run Locally 📂
+1️⃣ Clone this repository: 
+`bash git clone https://github.com/yourusername/whack-a-mole.git 
+2️⃣ Open index.html in your browser.
+
+
+✨ Features
+Random mole appearance
+Timer countdown
+Score tracking
+Responsive design (works on desktop and mobile)
+
+💡 Future Improvements
+Add levels or increasing difficulty
+Add sound effects
+Add start/restart buttons
+
+📌 Status
+✅ Basic version completed
+🚧 More features planned
+
+Inspired by the classic Whack-a-Mole game!
