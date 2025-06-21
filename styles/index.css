@@ -9,6 +9,11 @@ body{
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 100vh;           /* 100% of the viewport height */
+  margin: 0;  
 }
 p{
   font-size: 27px;
@@ -21,6 +26,11 @@ p{
   font-weight: bold;
   padding-left: 80px;
   font-size: 50px;
+}
+.description{
+  padding-left: 60px;
+  font-size: 27px;
+  font-weight: 500;
 }
 .game{
   display: none;
@@ -38,7 +48,7 @@ p{
   box-shadow: 3px 4px 5px rgba(18, 96, 18, 0.5);
   width: 500px;
   height: 300px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   background-color: rgba(18, 96, 18, 0.5);
 }
 .input-name{
