@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(92, 159, 92);
+}
+p{
+  font-size: 25px;
+  color: white;
+  background-color: rgba(43, 82, 43, 0.2);
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid rgba(43, 82, 43, 0.2);
+}
+
+.start-game{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(43, 82, 43, 0.2);
+  padding: 40px 50px;
+  border: 1px solid rgba(43, 82, 43, 0.2);
+  margin-top: 25px;
+}
+.hole{
+  background: url('../images/hole.jpg')no-repeat center/contain;
+  width: 80px;
+  height: 80px;
+}
+.up{
+  background: url('../images/mole.jpg')no-repeat center/contain;
+  width: 80px;
+  height: 80px;
+}
+.hole-container{
+  display: inline-block;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+/* .hole ,
+.up{
+  display: inline-block;
+  margin-left: 50px;
+  margin-bottom: 20px;
+} */
+.game-title{
+  font-weight: bold;
+  padding-left: 80px;
+  font-size: 50px;
+  margin-top: 60px;
+  font-style: italic;
+}
+.game-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
